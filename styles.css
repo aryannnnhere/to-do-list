@@ -7,10 +7,8 @@
     flex-direction: row;
     margin: 50px auto;
     justify-content:center;
-    
 
 }
-
 
 #img-heading{
     margin: 30px 30px 0px 0px;
@@ -29,6 +27,7 @@
 #container {
     width: 500px;
     min-height: 200px;
+    height: auto;
     margin: auto;
     padding: 10 auto;
     background-color:#ffffff;
@@ -36,6 +35,7 @@
     flex-direction: column;
     border: 1px solid ;
     border-radius: 10px; 
+    font-size: large;
 }
 
 ul {
@@ -67,6 +67,29 @@ ul {
 
 #task-couting{
     background-color:#ffffff;
+}
+
+#list li {
+    position: relative;
+    background-color: #b7b7b7;  
+}
+#list li:nth-child(even){
+    background-color: #F4F4F4;
+}
+.list-img{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+   
+}
+.list-img:hover{
+    color: red;
+}
+#list li label{
+    background-color: #b7b7b7;;
+}
+#list li:nth-child(even) label{
+    background-color: #F4F4F4;
 }
 
 
